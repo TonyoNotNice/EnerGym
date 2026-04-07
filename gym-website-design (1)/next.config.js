@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export',  // This replaces 'next export' in Next.js 13+
   images: {
     unoptimized: true,
   },
